@@ -2,3 +2,5 @@ apache-airflow==2.7.1
 sqlalchemy
 fnmatch
 python-dotenv
+pandas
+psycopg2
