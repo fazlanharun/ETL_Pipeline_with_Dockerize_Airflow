@@ -9,5 +9,6 @@ def run_etl():
     sale_path = find_latest_csv("sales_*.csv", search_path="/opt/airflow/data/raw")
 
     extract_sales_data(engine,sale_path)
-    transform(engine)
-    aggregate_sales(engine)
+    latest_created = transform(engine) 
+    if latest_created:
+        aggregate_sales(engine, latest_created)

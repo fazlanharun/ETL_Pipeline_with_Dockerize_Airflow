@@ -3,23 +3,29 @@ import random
 from datetime import datetime, timedelta
 import os
 
-brands = [
-    "Milo", "KitKat", "Maggi", "Nescafé", "Cerelac",
-    "Nestum", "Lactogrow", "Koko Krunch", "Gold Cornflakes"
-]
+# Load fixed product master
+product_master = pd.read_csv("dags\db_config\master_data.csv")
+
 executives = ["Amira", "Hazim", "John", "Wei Yong", "Viknesh"]
 
 rows = []
-start_date = datetime(2022, 6, 24)
+start_date = datetime(2022, 1, 1)
+end_date = datetime(2025, 6, 30)
 
-for i in range(10000):
-    date = start_date + timedelta(days=random.randint(0, 30))
-    item_code = f"NES{i+1:03d}"
-    brand = random.choice(brands)
+# Calculate total days between start and end
+delta_days = (end_date - start_date).days
+
+for i in range(100):
+    date = start_date + timedelta(days=random.randint(0, delta_days))
+    product = product_master.sample(1).iloc[0]
     quantity = random.randint(1, 10)
-    unit_price = round(random.uniform(30, 150), 2)
     executive = random.choice(executives)
-    rows.append([date.strftime("%Y-%m-%d"), item_code, brand, quantity, unit_price, executive])
+    rows.append([date.strftime("%Y-%m-%d"),
+        product["item_code"],
+        product["brand"],
+        quantity,
+        product["master_unit_price"],
+        executive])
 
 df = pd.DataFrame(rows, columns=["date", "item_code", "brand_name", "quantity", "unit_price", "executive"])
 print(df)

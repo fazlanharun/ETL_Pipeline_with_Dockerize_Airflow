@@ -1,0 +1,101 @@
+date,item_code,brand_name,quantity,unit_price,executive
+2022-02-04,NES066,Nestum,9,47.1,Wei Yong
+2022-12-20,NES008,Gold Cornflakes,4,96.0,John
+2023-10-16,NES069,Maggi,10,102.2,Amira
+2023-06-13,NES031,Gold Cornflakes,5,63.9,Hazim
+2024-01-03,NES023,Koko Krunch,5,133.8,Viknesh
+2024-09-13,NES030,Nestum,9,103.4,Wei Yong
+2022-02-27,NES016,Koko Krunch,4,31.8,Viknesh
+2023-09-03,NES036,Lactogrow,9,60.7,Viknesh
+2024-05-06,NES062,Gold Cornflakes,8,105.4,Amira
+2024-11-12,NES008,Gold Cornflakes,6,96.0,John
+2022-01-19,NES027,Nestum,1,53.5,Amira
+2025-06-24,NES094,Nescafé,10,138.9,Hazim
+2023-05-30,NES050,Maggi,9,135.8,Viknesh
+2023-09-20,NES047,Gold Cornflakes,5,107.8,Amira
+2024-08-24,NES019,Koko Krunch,3,98.4,Wei Yong
+2023-02-15,NES020,Milo,8,103.8,Amira
+2024-11-27,NES014,Lactogrow,4,120.8,Wei Yong
+2024-01-23,NES091,Koko Krunch,2,105.6,Amira
+2024-10-23,NES066,Nestum,9,47.1,Amira
+2025-01-10,NES044,KitKat,2,44.1,Viknesh
+2022-05-22,NES008,Gold Cornflakes,10,96.0,Amira
+2022-08-17,NES086,Milo,7,63.1,Viknesh
+2022-06-05,NES053,Nestum,5,77.1,Viknesh
+2023-10-19,NES013,Lactogrow,6,117.0,Hazim
+2025-01-11,NES058,Lactogrow,7,150.0,Viknesh
+2023-11-03,NES028,Koko Krunch,5,146.0,John
+2022-02-11,NES027,Nestum,4,53.5,Hazim
+2022-11-07,NES071,Gold Cornflakes,2,93.7,Amira
+2022-06-05,NES040,Nescafé,1,94.6,John
+2023-12-25,NES003,KitKat,9,145.3,John
+2023-08-05,NES084,Maggi,10,69.0,Viknesh
+2022-01-17,NES059,Cerelac,10,38.2,Amira
+2022-04-05,NES099,Milo,1,123.6,Wei Yong
+2022-12-14,NES040,Nescafé,5,94.6,Amira
+2022-06-24,NES074,Nescafé,4,62.8,John
+2022-06-14,NES060,Cerelac,10,91.2,John
+2022-02-24,NES058,Lactogrow,10,150.0,Amira
+2023-05-20,NES022,Cerelac,8,67.8,Wei Yong
+2025-03-09,NES079,Nescafé,2,34.7,Viknesh
+2022-07-13,NES005,Koko Krunch,4,84.1,John
+2023-05-19,NES023,Koko Krunch,9,133.8,Amira
+2022-02-11,NES048,Nestum,9,132.4,Hazim
+2024-12-01,NES097,Nestum,2,93.4,John
+2024-05-04,NES062,Gold Cornflakes,6,105.4,Wei Yong
+2025-01-31,NES009,Koko Krunch,1,85.6,John
+2023-05-13,NES017,Maggi,1,111.0,Wei Yong
+2023-08-28,NES091,Koko Krunch,10,105.6,Viknesh
+2022-12-04,NES054,Maggi,1,145.0,Wei Yong
+2023-02-02,NES037,Milo,2,136.5,John
+2025-02-23,NES046,Gold Cornflakes,10,100.9,Viknesh
+2022-03-04,NES014,Lactogrow,3,120.8,Viknesh
+2023-07-18,NES001,Cerelac,2,46.7,Hazim
+2022-09-30,NES042,KitKat,1,76.9,Hazim
+2024-09-23,NES036,Lactogrow,9,60.7,Viknesh
+2023-03-13,NES056,Nescafé,1,52.1,Wei Yong
+2023-04-25,NES063,Cerelac,10,90.5,Viknesh
+2022-06-27,NES017,Maggi,8,111.0,John
+2022-07-30,NES091,Koko Krunch,10,105.6,Amira
+2024-02-07,NES072,Lactogrow,8,102.1,Viknesh
+2025-03-25,NES060,Cerelac,2,91.2,Viknesh
+2023-08-07,NES091,Koko Krunch,2,105.6,Viknesh
+2025-06-15,NES100,Gold Cornflakes,3,134.1,John
+2022-03-17,NES001,Cerelac,8,46.7,Wei Yong
+2022-09-26,NES041,Lactogrow,8,149.6,Amira
+2022-07-24,NES064,Lactogrow,6,61.5,Viknesh
+2022-02-11,NES081,Gold Cornflakes,5,69.2,Amira
+2024-09-16,NES022,Cerelac,4,67.8,Viknesh
+2023-04-28,NES013,Lactogrow,5,117.0,Amira
+2022-02-14,NES095,Milo,3,108.0,Amira
+2023-05-15,NES032,Koko Krunch,4,70.6,Hazim
+2022-05-22,NES035,Milo,3,128.6,Wei Yong
+2024-04-19,NES048,Nestum,4,132.4,Amira
+2023-09-19,NES007,KitKat,1,119.9,John
+2024-08-21,NES038,Nescafé,6,134.0,Amira
+2022-09-25,NES093,Lactogrow,1,90.8,John
+2023-06-21,NES050,Maggi,7,135.8,John
+2024-05-24,NES048,Nestum,9,132.4,Amira
+2025-02-22,NES063,Cerelac,3,90.5,Viknesh
+2022-12-04,NES022,Cerelac,6,67.8,Wei Yong
+2022-06-20,NES058,Lactogrow,2,150.0,Hazim
+2022-03-09,NES056,Nescafé,2,52.1,Amira
+2022-07-04,NES040,Nescafé,3,94.6,Hazim
+2023-12-25,NES023,Koko Krunch,8,133.8,Viknesh
+2024-03-27,NES048,Nestum,10,132.4,Wei Yong
+2025-03-15,NES038,Nescafé,4,134.0,Hazim
+2023-01-01,NES054,Maggi,8,145.0,John
+2023-06-11,NES023,Koko Krunch,9,133.8,Hazim
+2022-11-21,NES004,Milo,10,128.2,Amira
+2022-02-07,NES026,Nescafé,1,31.9,Amira
+2024-11-22,NES011,Nestum,8,78.0,Viknesh
+2025-06-10,NES064,Lactogrow,7,61.5,Hazim
+2022-07-01,NES012,Cerelac,2,64.8,John
+2024-04-03,NES022,Cerelac,6,67.8,Amira
+2023-04-27,NES048,Nestum,1,132.4,Hazim
+2023-08-19,NES096,Milo,9,103.2,Hazim
+2022-08-09,NES100,Gold Cornflakes,4,134.1,Wei Yong
+2025-02-03,NES056,Nescafé,3,52.1,John
+2022-06-19,NES042,KitKat,6,76.9,Hazim
+2024-09-25,NES036,Lactogrow,4,60.7,Hazim
+2023-12-07,NES077,Lactogrow,2,73.7,Wei Yong

@@ -1,5 +1,4 @@
 import os
-from sqlalchemy import create_engine
 import pandas as pd
 from utils.db import engine
 

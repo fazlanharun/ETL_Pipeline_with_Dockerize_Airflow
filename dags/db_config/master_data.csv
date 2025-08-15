@@ -1,6 +1,101 @@
 item_code,item_name,category,brand,master_unit_price
-SK001,Hydrating Toner,Toner,GlowSkin,55.00
-SK002,Vitamin C Serum,Serum,DermaPure,120.00
-SK003,Retinol Night Cream,Cream,GlowSkin,150.00
-SK004,Sunscreen SPF50,Sunscreen,SunBlocker,90.00
-SK005,Gentle Cleanser,Cleanser,DermaPure,45.00
+NES001,Cerelac Banana,Baby Food,Cerelac,46.7
+NES002,Nescafé Gold Blend,Beverage,Nescafé,81.7
+NES003,KitKat Mini,Snack,KitKat,145.3
+NES004,Milo Powder 1kg,Beverage,Milo,128.2
+NES005,Koko Krunch Chocolate,Cereal,Koko Krunch,84.1
+NES006,KitKat 4-Finger Bar,Snack,KitKat,136.5
+NES007,KitKat Chunky,Snack,KitKat,119.9
+NES008,Gold Cornflakes 275g,Cereal,Gold Cornflakes,96
+NES009,Koko Krunch Duo,Cereal,Koko Krunch,85.6
+NES010,Maggi Tom Yam,Instant Noodles,Maggi,103.5
+NES011,Nestum Chocolate,Cereal,Nestum,78
+NES012,Cerelac Rice & Milk,Baby Food,Cerelac,64.8
+NES013,Lactogrow 4 Milk Powder,Baby Formula,Lactogrow,117
+NES014,Lactogrow 3 Milk Powder,Baby Formula,Lactogrow,120.8
+NES015,Lactogrow 4 Milk Powder,Baby Formula,Lactogrow,36.7
+NES016,Koko Krunch Chocolate,Cereal,Koko Krunch,31.8
+NES017,Maggi Chicken Stock,Instant Noodles,Maggi,111
+NES018,Gold Cornflakes 275g,Cereal,Gold Cornflakes,122
+NES019,Koko Krunch Duo,Cereal,Koko Krunch,98.4
+NES020,Milo Powder 1kg,Beverage,Milo,103.8
+NES021,Koko Krunch Chocolate,Cereal,Koko Krunch,124.2
+NES022,Cerelac Rice & Milk,Baby Food,Cerelac,67.8
+NES023,Koko Krunch Chocolate,Cereal,Koko Krunch,133.8
+NES024,Maggi Chicken Stock,Instant Noodles,Maggi,65.3
+NES025,Gold Cornflakes Honey,Cereal,Gold Cornflakes,144.1
+NES026,Nescafé Gold Blend,Beverage,Nescafé,31.9
+NES027,Nestum Chocolate,Cereal,Nestum,53.5
+NES028,Koko Krunch Chocolate,Cereal,Koko Krunch,146
+NES029,KitKat Mini,Snack,KitKat,74.3
+NES030,Nestum Honey,Cereal,Nestum,103.4
+NES031,Gold Cornflakes 275g,Cereal,Gold Cornflakes,63.9
+NES032,Koko Krunch Chocolate,Cereal,Koko Krunch,70.6
+NES033,Gold Cornflakes Honey,Cereal,Gold Cornflakes,42.4
+NES034,Gold Cornflakes 275g,Cereal,Gold Cornflakes,47.7
+NES035,Milo UHT 200ml,Beverage,Milo,128.6
+NES036,Lactogrow 3 Milk Powder,Baby Formula,Lactogrow,60.7
+NES037,Milo UHT 200ml,Beverage,Milo,136.5
+NES038,Nescafé Gold Blend,Beverage,Nescafé,134
+NES039,Maggi Curry Noodles,Instant Noodles,Maggi,111.2
+NES040,Nescafé Classic 100g,Beverage,Nescafé,94.6
+NES041,Lactogrow 3 Milk Powder,Baby Formula,Lactogrow,149.6
+NES042,KitKat Chunky,Snack,KitKat,76.9
+NES043,Nestum Original 250g,Cereal,Nestum,46.4
+NES044,KitKat Chunky,Snack,KitKat,44.1
+NES045,Milo UHT 200ml,Beverage,Milo,130
+NES046,Gold Cornflakes 275g,Cereal,Gold Cornflakes,100.9
+NES047,Gold Cornflakes Honey,Cereal,Gold Cornflakes,107.8
+NES048,Nestum Honey,Cereal,Nestum,132.4
+NES049,Gold Cornflakes 275g,Cereal,Gold Cornflakes,71.2
+NES050,Maggi Chicken Stock,Instant Noodles,Maggi,135.8
+NES051,Maggi Curry Noodles,Instant Noodles,Maggi,112.1
+NES052,Nestum Original 250g,Cereal,Nestum,71
+NES053,Nestum Honey,Cereal,Nestum,77.1
+NES054,Maggi Tom Yam,Instant Noodles,Maggi,145
+NES055,Maggi Tom Yam,Instant Noodles,Maggi,89.1
+NES056,Nescafé Gold Blend,Beverage,Nescafé,52.1
+NES057,Nescafé Classic 100g,Beverage,Nescafé,83.7
+NES058,Lactogrow 3 Milk Powder,Baby Formula,Lactogrow,150
+NES059,Cerelac Banana,Baby Food,Cerelac,38.2
+NES060,Cerelac Banana,Baby Food,Cerelac,91.2
+NES061,KitKat Mini,Snack,KitKat,42.5
+NES062,Gold Cornflakes 275g,Cereal,Gold Cornflakes,105.4
+NES063,Cerelac Banana,Baby Food,Cerelac,90.5
+NES064,Lactogrow 4 Milk Powder,Baby Formula,Lactogrow,61.5
+NES065,KitKat Chunky,Snack,KitKat,140
+NES066,Nestum Original 250g,Cereal,Nestum,47.1
+NES067,Cerelac Wheat & Milk,Baby Food,Cerelac,69.3
+NES068,Nescafé Latte,Beverage,Nescafé,47.9
+NES069,Maggi Chicken Stock,Instant Noodles,Maggi,102.2
+NES070,KitKat Mini,Snack,KitKat,69.4
+NES071,Gold Cornflakes 275g,Cereal,Gold Cornflakes,93.7
+NES072,Lactogrow 3 Milk Powder,Baby Formula,Lactogrow,102.1
+NES073,Nescafé Gold Blend,Beverage,Nescafé,116
+NES074,Nescafé Classic 100g,Beverage,Nescafé,62.8
+NES075,Maggi Tom Yam,Instant Noodles,Maggi,37.9
+NES076,Nescafé Gold Blend,Beverage,Nescafé,63.3
+NES077,Lactogrow 3 Milk Powder,Baby Formula,Lactogrow,73.7
+NES078,Lactogrow 3 Milk Powder,Baby Formula,Lactogrow,42.1
+NES079,Nescafé Latte,Beverage,Nescafé,34.7
+NES080,Nescafé Classic 100g,Beverage,Nescafé,138.6
+NES081,Gold Cornflakes Honey,Cereal,Gold Cornflakes,69.2
+NES082,Nescafé Classic 100g,Beverage,Nescafé,62.2
+NES083,KitKat Mini,Snack,KitKat,82.4
+NES084,Maggi Chicken Stock,Instant Noodles,Maggi,69
+NES085,Koko Krunch Chocolate,Cereal,Koko Krunch,78.5
+NES086,Milo UHT 200ml,Beverage,Milo,63.1
+NES087,KitKat Mini,Snack,KitKat,40.2
+NES088,Milo UHT 200ml,Beverage,Milo,79.2
+NES089,Maggi Chicken Stock,Instant Noodles,Maggi,56.9
+NES090,Lactogrow 3 Milk Powder,Baby Formula,Lactogrow,136.1
+NES091,Koko Krunch Chocolate,Cereal,Koko Krunch,105.6
+NES092,Lactogrow 3 Milk Powder,Baby Formula,Lactogrow,84.6
+NES093,Lactogrow 4 Milk Powder,Baby Formula,Lactogrow,90.8
+NES094,Nescafé Latte,Beverage,Nescafé,138.9
+NES095,Milo Activ-Go 3-in-1,Beverage,Milo,108
+NES096,Milo Activ-Go 3-in-1,Beverage,Milo,103.2
+NES097,Nestum Original 250g,Cereal,Nestum,93.4
+NES098,Gold Cornflakes Honey,Cereal,Gold Cornflakes,44.7
+NES099,Milo Powder 1kg,Beverage,Milo,123.6
+NES100,Gold Cornflakes 275g,Cereal,Gold Cornflakes,134.1
