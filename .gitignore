@@ -1,3 +1,14 @@
 # .gitignore
 logs/
 *.log
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+.env
+venv/
+
+.gitattributes.txt
+
+.env
+dags\.airflowignore
