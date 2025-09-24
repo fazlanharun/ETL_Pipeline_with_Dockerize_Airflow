@@ -6,20 +6,6 @@ ETL Pipeline with Dockerized Airflow
 A modular, audit-safe ETL pipeline built with Apache Airflow, PostgreSQL, and Docker, designed for reproducibility, operational clarity, 
 and seamless integration with Power BI.
 
-📦 Project Structure
-├── dags/
-│   ├── airflow_dags.py         # DAG logic
-│   ├── pipeline.py             # Pipeline for dags/etl/
-│   ├── db_config/              # Table creation & master data loaders, create power bi user
-│   ├── utils/                  # postgres engine, find latest sale csv in data/raw/
-│   └── etl/                    # Core ETL logic (extract, transform, load)
-├── data/raw/                   # Incoming sales CSVs
-├── postgres-config/            # Custom PostgreSQL configs
-├── docker-compose.yaml         # Container orchestration
-├── requirements.txt            # Python dependencies
-├── .env                        # Airflow and Database setting
-└── .gitignore                  # Clean repo
-
 🔄 ETL Flow
 The DAG sales_etl_pipeline orchestrates four key tasks:
 
