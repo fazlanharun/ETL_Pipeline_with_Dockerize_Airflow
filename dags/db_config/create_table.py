@@ -41,9 +41,11 @@ def create_schema():
         created TIMESTAMPTZ NOT NULL);
         
         CREATE TABLE IF NOT EXISTS gold.fact_sales_summary (
-        item_code TEXT PRIMARY KEY,
+        date DATE NOT NULL,
+        item_code TEXT NOT NULL,
         total_sales NUMERIC NOT NULL,
-        last_update  timestamptz NOT NULL DEFAULT now()
+        last_update  timestamptz NOT NULL DEFAULT now(),
+        CONSTRAINT unique_item_date UNIQUE (item_code, date)
         );
 
         '''

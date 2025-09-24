@@ -23,7 +23,7 @@ def transform(engine):
         params={"c": latest_created}
     )
 
-    master_df = pd.read_sql( "SELECT item_code, master_unit_price FROM master_data",engine)
+    master_df = pd.read_sql( "SELECT item_code, master_unit_price FROM bronze.master_data",engine)
 
     "Join sale with master data, validate unit price should be same"
     merged = sales_df.merge(master_df, on = 'item_code', how = 'left')

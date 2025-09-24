@@ -14,7 +14,7 @@ def load_master_data():
     try:
         csv_path = find_file("master_data.csv",search_path="/opt/airflow/dags/db_config")
         df = pd.read_csv(csv_path)
-        df.to_sql("master_data", engine, if_exists="replace", index=False)
+        df.to_sql("master_data", engine, schema = 'bronze', if_exists="replace", index=False)
         print("Master_Data ingested successfully.")
     except FileNotFoundError as e:
         print(e)
