@@ -10,10 +10,10 @@ and seamless integration with Power BI.
 The DAG sales_etl_pipeline orchestrates four key tasks:  
 
 Task	Description  
-init_schema	Creates   PostgreSQL tables using SQL scripts  
-load_master_data      Loads reference/master data from CSVs  
-run_etl_pipeline	    Extracts, transforms, and loads sales data  
-grant_powerbi_access  Ensures Power BI can access updated tables  
+init_schema	Creates   :PostgreSQL tables using SQL scripts  
+load_master_data      :Loads reference/master data from CSVs  
+run_etl_pipeline	    :Extracts, transforms, and loads sales data  
+grant_powerbi_access  :Ensures Power BI can access updated tables  
 
 Each task is modular and reusable, with audit logging built into the ETL layer.  
 
@@ -37,10 +37,10 @@ The sale data is a fake data created with python script in data/raw/generate_dat
 🚀 Getting Started
 bash
 # Clone the repo
-git clone https://github.com/fazlanharun/ETL_Pipeline_with_Dockerize_Airflow.git
+git clone https://github.com/fazlanharun/ETL_Pipeline_with_Dockerize_Airflow.git  
 cd ETL_Pipeline_with_Dockerize_Airflow
 
 # Start the pipeline
-docker-compose up --build
+docker-compose up --build  
 
 Access Airflow at localhost:8080 and pgAdmin at localhost:5050.
