@@ -1,16 +1,21 @@
 ETL Pipeline with Dockerized Airflow
 
-<img width="1102" height="772" alt="Data_Architecture_Sale_ETL_Pipeline drawio" src="https://github.com/user-attachments/assets/1045cc6f-7214-4117-9726-34be9de9fd91" />
+![Data Architecture Sale ETL](https://github.com/user-attachments/assets/1198cff9-6de4-430c-bbea-f38e734bfd4a)
 
 
-A modular, audit-safe ETL pipeline built with Apache Airflow, PostgreSQL, and Docker, designed for reproducibility, operational clarity, 
-and seamless integration with Power BI.
+
+A modular ETL pipeline built with Apache Airflow, PostgreSQL, and Docker, designed for reproducibility, operational clarity, 
+and seamless integration with Power BI.  
+
+Business Problem : Manual processing of daily sales data using Microsoft Excel was time-consuming and inefficient, delaying actionable insights for stakeholders.  
+
+Solution: Developed an automated ETL pipeline to streamline data cleaning and accelerate the data-to-insight cycle, enabling Sales and Marketing stakeholders to make faster, data-driven decisions.  
 
 🔄 ETL Flow  
 The DAG sales_etl_pipeline orchestrates four key tasks:  
 
 Task	Description  
-init_schema	Creates   :PostgreSQL tables using SQL scripts  
+init_schema	          :Creates PostgreSQL tables using SQL scripts  
 load_master_data      :Loads reference/master data from CSVs  
 run_etl_pipeline	    :Extracts, transforms, and loads sales data  
 grant_powerbi_access  :Ensures Power BI can access updated tables  
@@ -18,11 +23,11 @@ grant_powerbi_access  :Ensures Power BI can access updated tables
 Each task is modular and reusable, with audit logging built into the ETL layer.  
 
 🧪 ETL Logic Highlights  
-Extraction: Reads raw CSVs from data/raw/, adds timestamps.  
+Bronze: Reads raw sale data CSVs from data/raw/, adds timestamps created. Load to bronze schema. 
 
-Transformation: Check data quality, deduplicate, cleans columns, , validates rows as per business rules.  
+Silver: Extract latest batch of sale record from bronze.  Check data quality, deduplicate, validates rows as per business rules. Load to silver. 
 
-Loading: Inserts into PostgreSQL all three stage bronze, silver, gold.  
+Gold: Aggregates total sales from the latest batch in silver. Create fact and dimension table. Inserts into PostgreSQL and ready to use for analytic and reporting.
 
 After ETL completion, the DAG grants access to Power BI via grant_powerbi_access, enabling user with acess to data at gold layer.  
 
@@ -32,7 +37,7 @@ After ETL completion, the DAG grants access to Power BI via grant_powerbi_access
 <img width="1836" height="850" alt="ELT and Data Warehouse Dashboard" src="https://github.com/user-attachments/assets/9708c2ad-97b6-4461-bce5-9c2079f14787" />
 
   
-The sale data is a fake data created with python script in data/raw/generate_data.py  
+The sale data is a fictitious data created with python script in data/raw/generate_data.py  
   
 🚀 Getting Started
 bash
